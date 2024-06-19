@@ -1,0 +1,146 @@
+.pricing-area {
+	padding: 3% 0;
+	text-align: center;
+}
+
+
+.single-pricing {
+	background: #fcfcfc;
+	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+	transition: all .5s ease;
+}
+.deal-type {
+	background: linear-gradient(to bottom, rgb(33, 66, 229), rgb(52, 105, 204));
+	padding: 15px 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	color: #fff;
+}
+.deal-amount {
+	clip-path: polygon(0 0, 100% 0%, 100% 60%, 51% 100%, 0 60%);
+	background: linear-gradient(to right,rgb(33, 66, 229), rgb(103, 194, 227));
+	padding: 25px 0;
+	color: #fff;
+}
+.price .money {
+	font-size: 60px;
+	font-weight: 900;
+}
+.price .money sup {
+	font-size: 40px;
+	font-weight: 500;
+}
+.single-deal {
+	padding: 15px 0;
+	list-style: none;
+}
+.single-deal li {
+	font-size: 18px;
+	font-family: montserrat;
+	padding: 10px 0;
+}
+.btn {
+	background: linear-gradient(to right, rgb(33, 66, 229),rgb(88, 162, 223));
+	border: none;
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	padding: 10px 50px;
+	color: #fff;
+}
+.single-pricing:hover {
+	transform: scale(1.05);
+}
+
+
+section {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #2d68de;
+}
+.section-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+.section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 48px 100px 0px;
+}
+.single-item{
+    background: #fff;
+    color: #544f4f;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid rgba(17, 129, 242, 0.605);
+}
+.content{
+    font-size: 18px;
+}
+.content p {
+	text-align: justify;
+}
+.content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: blueviolet;
+}
+.socials i {
+	margin-right: 25px;
+}
+.bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: rgb(43, 168, 226);
+}
+
+@media (max-width: 767px) {
+	.single-pricing {
+		margin-bottom: 30px;
+	}
+	#footer{
+		text-align: center;
+		padding: auto;
+	}
+	#comentarios{
+		position: absolute;
+		
+	}
+	h1 .section-header{
+		display: none;
+	}
+}

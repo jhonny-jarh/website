@@ -1,0 +1,149 @@
+#navbarlol{
+    background: linear-gradient(45deg, rgb(33, 66, 229), rgb(82, 227, 210));
+}
+
+#footer{
+
+  background: linear-gradient(45deg, rgb(33, 66, 229), rgb(82, 227, 210));
+}
+.bg{
+  background: url(/img/Marketing.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#mini{
+    opacity: 0.8;
+}
+.negrito{
+  
+  
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow:  6px 6px 8px rgba(153, 152, 179, 0.637);
+
+  
+}
+
+.rrr{
+    background-color: rgba(8, 6, 6, 0.146);
+    z-index: -1 !important; 
+    border-radius: 2rem;
+
+}
+
+#titu{
+    font-family: 'Lobster', cursive;
+}
+
+
+
+#flip{
+    font-family: 'Lobster', cursive;
+    text-shadow:  8px 8px 4px rgba(153, 152, 179, 0.637);
+}
+/* slider de imagenes del carrusel */
+
+.carousel-inner{
+    max-height: 35rem;
+
+
+}
+
+#row-contacs h4{
+    text-align: center;
+
+}
+#row-contacs img{
+    border-radius: 50% !important;
+}
+
+#local{
+    background: linear-gradient(80deg, rgba(51, 163, 207, 0.896), rgb(33, 66, 229))
+}
+
+#tablita{
+    opacity: 0.8;
+}
+
+/*estilos de ujummm*/
+
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+.degra{
+  font-family: 'Lobster', cursive;
+  text-shadow: 6px 6px 4px rgb(177, 170, 170) !important;
+  font-size: 28px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+    
+
+/*media query para pantalla pequeña*/
+
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    #equipo p {
+        display: none;
+    }
+    .filaxd{
+        width: auto !important;
+        text-align: center;
+    }
+    #footer{
+      text-align: center;
+      padding: auto;
+
+    }
+    #stay{
+      display: none;
+    }
+}
+
+/*media query para pantalla super pequeña*/
+@media (max-width: 576px){
+    .icon{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

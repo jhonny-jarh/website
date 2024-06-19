@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lobster&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="stylesheet" href="nro2.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="icon" href="img/icons8-tienda-online-48.png">
+    <title>JARH PRODUCTS</title>
+  </head>
+  <body class="fondo">
+    <!--este es la barra de navegacion =================================================================================================================-->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top text-white"
+      id="navbarlol"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/icons8-tienda-online-48.png" width="30px" height="30px" alt="">
+          <span class="text-ligth fs-5 fw-bold" id="titu">Jarh.Tecnomovil</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto text-ligth">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#flip">Combo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comentarios">comentarios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-intervarl="1000">
+          <img src="img/slide1.jpg" class="d-block w-100" alt="slide1" />
+        </div>
+        <div class="carousel-item" data-bs-intervarl="1000">
+          <img src="img/slide2.jpg" class="d-block w-100" alt="slide2" />
+        </div>
+        <div class="carousel-item" data-bs-intervarl="1000">
+          <img src="img/slide3.jpg" class="d-block w-100" alt="slide3" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleRide"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleRide"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-2 border-top border-3">
+        Una Tienda unica para todas tus necesidades de<span
+          class="text-primary"
+        >
+          productos y accesorios de telefonos y demas...
+        </span>
+      </h1>
+
+      <img src="accesorios/images.jpeg" alt="" />
+      <p class="p-3 fs-4">
+        <span class="text-primary">JARH PRODUCTS</span> es la Tienda Online que
+        se enfoca en la necesidad del cliente dando una atencion agradale y
+        confiable a los productos y marcas que nos patrocinan
+      </p>
+    </section>
+    <section class="container-fluid">
+      <div class="row w-75 mx-auto filaxd">
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-5 icon">
+          <img src="accesorios/cable.jpg" alt="" height="169" width="200" />
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Accesorios y Repuestos</h3>
+            <p class="px-4">Accesorios y repuestos de alta calidad para prolongar la vida útil de tus dispositivos y mantenerlos como nuevos.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-5 icon">
+          <img
+            src="accesorios/GALAXY-A04S-128GB-BLACK-side.jpg"
+            alt=""
+            height="169"
+            width="200"
+          />
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Telefonía</h3>
+            <p class="px-4">Smartphones de última generación con la mejor tecnología y rendimiento para mantenerte conectado y productivo.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-5 icon">
+          <img src="accesorios/cargador.png" alt="" height="169" width="200" />
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">PRESENCIA</h3>
+            <p class="px-4">
+                Cargadores y Audífonos con sonido premium y tecnología de cancelación de ruido para una experiencia auditiva inigualable.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex my-5 icon">
+          <img
+            src="accesorios/Xiaomi_Smart_Band_7_Negro_f01f14e628.webp"
+            alt=""
+            height="169"
+            width="200"
+          />
+          <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">Relojes Inteligentes</h3>
+            <p class="px-4">
+                Relojes inteligentes avanzados que combinan estilo y funcionalidad, ayudándote a estar en forma y conectado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <h2 class="text-center py-3    section-header" id="flip">Combo: "Kit Esencial de Accesorios para Smartphones"<span id="none">
+        (Ahorra un 20% en comparación con la compra individual)</span></h2>
+    </div>
+    <div class="pricing-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="single-pricing">
+              <div class="deal-type">Apple Kit Esencial</div>
+              <div class="deal-amount">
+                <div class="price">
+                  <span class="money"><sup>$</sup>99.99</span>
+                </div>
+                <h4>-20%</h4>
+              </div>
+              <ul class="single-deal">
+                <li>Cargador MagSafe de 15W</li>
+                <li>Carga rápida y conveniente para iPhone 12 en    <br> adelante.</li>
+                <li>Funda de Silicona con MagSafe</li>
+                <li> disponible en varios colores.</li>
+                <li>Cable USB-C a Lightning de 1 metro</li>
+              </ul>
+              <a class="btn">comprar</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-pricing">
+              <div class="deal-type">Xiaomi Kit Esencial</div>
+              <div class="deal-amount">
+                <div class="price">
+                  <span class="money"><sup>$</sup>69.99</span>
+                </div>
+                <h4>-20%</h4>
+              </div>
+              <ul class="single-deal">
+                <li>Cargador Turbo de 33W</li>
+                <li>Carga rápida y eficiente para dispositivos Xiaomi.</li>
+                <li>Funda de Silicona Transparente</li>
+                <li>Protección duradera y diseño elegante, compatible con la mayoría de los modelos Xiaomi.</li>
+                <li>Cable USB-C de 1.5 metros</li>
+              </ul>
+              <a class="btn">comprar</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="single-pricing">
+              <div class="deal-type">Samsung Kit Esencial</div>
+              <div class="deal-amount">
+                <div class="price">
+                  <span class="money"><sup>$</sup>79.99</span>
+                </div>
+                <h4>-20%</h4>
+              </div>
+              <ul class="single-deal">
+                <li>Cargador Rápido de 25W</li>
+                <li>Carga eficiente y rápida para dispositivos Samsung Galaxy.</li>
+                <li>Funda de Silicona Suave</li>
+                <li>Cable USB-C a USB-C de 1 metro</li>
+                <li>Soporta carga rápida y transferencia de datos.</li>
+              </ul>
+              <a class="btn">comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container marketing">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="accesorios/forros.jpg" class="bd-placeholder-img rounded-circle" height="180" width="200" alt="">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+            <img src="accesorios/iphone.jpg" class="bd-placeholder-img rounded-circle" height="200" width="220" alt="">
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="accesorios/istockphoto-1026777324-612x612.jpg" class="bd-placeholder-img rounded-circle" height="180" width="200" alt="">
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+    <div class="container-fluid my-4 py-4 border-top border-3"  id="local" >
+        <div class="row">
+            <div class="col-sm-7 col-md-2 col-lg-3 col-xl-3 ">
+            <img src="img/silicon.jpg" class="img-thumbnail" alt="servicios">
+            </div>
+        
+          <div class="col-sm-12 col-md-8 col-lg-8 col-xl-8">
+            <h2 class="text-center">listado de Accesorios</h2>
+              <table class="table table-dark table-hover" id="tablita">
+                <thead class="table table-info">
+                  <tr>
+                    <th>Marca</th>
+                    <th>Cargadores</th>
+                    <th>Forros de Silicona </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Apple</td>
+                    <td>Cargador MagSafe (2022-2024)/Cargador de 20W USB-C</td>
+                    <td>Forro de Silicona Oficial/Forro de Silicona con MagSafe</td>
+                  </tr>
+                  <tr>
+                    <td>Samsung</td>
+                    <td>Cargador Rápido de 25W/Cargador Inalámbrico Duo</td>
+                    <td>Silicone Cover/Silicone Grip Cover</td>
+                  </tr>
+                  <tr>
+                    <td>Huawei</td>
+                    <td>SuperCharge de 40W/Cargador Inalámbrico SuperCharge</td>
+                    <td>Silicone Case with Ring</td>
+                  </tr>
+                  <tr>
+                    <td>Xiaomi</td>
+                    <td>Cargador Turbo de 33W/Cargador Inalámbrico de 30W</td>
+                    <td>Silicone Case with Card Holder</td>
+                  </tr>
+                  <tr>
+                    <td>Motorola</td>
+                    <td>Cargador USB-C de 20W</td>
+                    <td>Silicone Case</td>
+                  </tr>
+                  <tr>
+                    <td>Tecno spark</td>
+                    <td>Cargador de Coche con USB-C y USB-A </td>
+                    <td>Silicone Cover</td>
+                  </tr>
+                </tbody>
+              </table>
+              <br>
+              <h1 class="text-dark mb-4" id="typewriter"></h1>
+              
+          </div>
+        </div>
+      </div>
+    <section>
+      <div class="container" id="comentarios">
+        <h1 class="section-header">
+          Clientes satisfechos<span>Es Hora de cambiar tu vida.</span>
+        </h1>
+        <div class="testimonials" >
+          <div
+            id="carouselExampleControls"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="img-area">
+                          <img src="img/perfil1.jpeg" alt="" />
+                        </div>
+                        <div class="bio">
+                          <h2>María G.</h2>
+                          <h4>⭐⭐⭐⭐⭐</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="fa fa-quote-left"></i></span>¡Estoy encantada con mi compra! Compré un cargador inalámbrico y una funda de silicona para mi iPhone 13, y ambos productos son de excelente calidad. El cargador es súper rápido y la funda tiene un tacto muy agradable y se ajusta perfectamente al teléfono. Además, el envío fue muy rápido. Definitivamente volveré a comprar en esta tienda.
+                        </p>
+                        <p class="socials">
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-behance"></i>
+                          <i class="fa fa-pinterest"></i>
+                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-vimeo"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="img-area">
+                          <img src="img/perfil4.jpg" alt="" />
+                        </div>
+                        <div class="bio">
+                          <h2>Carlos M.</h2>
+                          <h4>⭐⭐⭐⭐⭐</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="fa fa-quote-left"></i></span>Esta tienda es increíble. Necesitaba un cargador rápido para mi Samsung Galaxy S22 y una funda de silicona resistente. Encontré exactamente lo que buscaba y a muy buen precio. El cargador carga mi teléfono en muy poco tiempo y la funda es antideslizante, lo cual es perfecto para mis manos torpes. El servicio al cliente también fue muy atento y me ayudaron con todas mis dudas. ¡Totalmente recomendado!
+                        </p>
+                        <p class="socials">
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-behance"></i>
+                          <i class="fa fa-pinterest"></i>
+                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-vimeo"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="single-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="profile">
+                        <div class="img-area">
+                          <img src="img/perfil2.jpg" alt="" />
+                        </div>
+                        <div class="bio">
+                          <h2>Lucía R.</h2>
+                          <h4>⭐⭐⭐⭐⭐
+                        </h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="content">
+                        <p>
+                          <span><i class="fa fa-quote-left"></i></span>Compré un cargador USB-C de 30W y una funda de silicona transparente para mi Huawei P50 y estoy muy satisfecha con la compra. El cargador es compacto y potente, ideal para llevarlo a todas partes, y la funda protege mi teléfono sin ocultar su diseño. Además, el proceso de compra fue muy sencillo y el envío llegó antes de lo esperado. ¡Volveré a comprar sin duda!
+
+
+                        </p>
+                        <p class="socials">
+                          <i class="fa fa-twitter"></i>
+                          <i class="fa fa-behance"></i>
+                          <i class="fa fa-pinterest"></i>
+                          <i class="fa fa-dribbble"></i>
+                          <i class="fa fa-vimeo"></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleControls"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============footer================================-->
+    <footer class="bg-dark text-white pt-5 pb-4" id="footer">
+      <div class="container text-md-left rrr">
+        <div class="row text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light negrito">
+              Jarh.tecnomovil
+            </h5>
+            <p id="stay">
+                ¡Si buscas accesorios y periféricos electrónicos de calidad para tu teléfono, no busques más! En jarh.tecnomóvil encontrarás una amplia variedad de productos que se ajustan a todas tus necesidades tecnológicas. Desde cargadores ultrarrápidos hasta fundas de silicona resistentes y elegantes, tenemos todo lo que necesitas para mantener tus dispositivos funcionando y protegidos.
+            </p>
+          </div>
+
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light negrito">
+              Servicios
+            </h5>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >* Garantía de Satisfacción y Devoluciones Sin Complicaciones</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >* Asistencia Personalizada y Soporte Técnico</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >* Envío Rápido y Seguimiento del Pedido</a
+              >
+            </p>
+            <p>
+              <a href="#" class="text-white" style="text-decoration: none"
+                >* Programa de Fidelidad y Descuentos Exclusivos</a
+              >
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light negrito">
+              Equipo
+            </h5>
+            <p>
+              <a
+                href=""
+                class="text-white"
+                style="text-decoration: none"
+                >Jhonny Ramirez <br> C.I: 29.810.156</a
+              >
+            </p>
+            <p>
+              <a
+                href=""
+                class="text-white"
+                style="text-decoration: none"
+                >Diego Vivas <br> C.I: 29.734.745</a
+              >
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-light negrito">
+              contactanos
+            </h5>
+            <p><i class="bi bi-house-door-fill mr-3"></i> Nuestra Ubicacion</p>
+            <p>
+              <i class="bi bi-envelope-check-fill mr-3"></i>
+              jhonny.jarh@gmail.com
+            </p>
+            <p><i class="bi bi-telephone-plus-fill mr-3"></i> +584147520818</p>
+            <p>
+              <i class="bi bi-bookmarks-fill mr-3"></i> añadenos a tus favoritos
+            </p>
+          </div>
+        </div>
+        <hr class="mb-4" />
+        <div class="row aling-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p class="copy">
+              Copyright all rights reserve by:
+              <a href="jhonnyabelramirezhernandez@gmail.com" class="text-reset"
+                ><strong class="text-light negrito">
+                  Jhonny Ramirez &copy; 2024</strong
+                ></a
+              >
+            </p>
+          </div>
+          <div class="col-md-5 col-lg-4">
+            <div class="text-center text-md-right">
+              <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61560715481597&mibextid=ZbWKwL"
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.instagram.com/jarh.tecnomovil?igsh=d2I0YTM5bjliMmZj"
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.tiktok.com/@jarh.tecnomovil?_t=8nBYTG3QJ0P&_r=1"
+                    class="btn-floating btn-sm text-white"
+                    style="font-size: 23px"
+                    ><i class="bi bi-tiktok"></i>
+                </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
